@@ -1,0 +1,74 @@
+@import url(12bool.css);
+
+/* 
+    RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    CONTAINER
+*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+:root {
+    --main-contouring-color: #1E8AE8;
+    --main-costume-color: #000000;
+    --contouring-eye-color: #E4E4E4;
+    --main-eye-color: #FFFFFF;
+    --background-color: #222034;
+    --symbol-color: #F02410;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    flex: 0 0 auto;
+    color: white;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* 
+    flex: GROW SHRINK BASIS;
+    */
+}
+
+.col-12 {
+    background-color: var(--background-color);
+}
+
+.col-1 {
+    padding: 40px 10px;
+}
+
+.contouring-color {
+    background-color: var(--main-contouring-color);
+
+}
+
+.costume-color {
+    background-color: var(--main-costume-color);
+}
+
+.eye-contouring {
+    background-color: var(--contouring-eye-color);
+}
+
+.eye-color  {
+    background-color: var(--main-eye-color);
+}
+
+.symbol-color {
+    background-color: var(--symbol-color);
+}
+/* .row {
+    border: 1px solid black;
+} */
