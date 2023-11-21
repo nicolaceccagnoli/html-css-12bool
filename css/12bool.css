@@ -19,6 +19,15 @@
     Selezionami tutti gli elementi che hanno l'attributo
     class con valore che CONTIENE in QUALUNQUE posizione la scritta col-
 */
+:root {
+    --main-bg-color: #006CFA;
+    --secondary-bg-color: #02E165;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
 [class*="col-"] {
     flex: 0 0 auto;
     color: white;
@@ -35,10 +44,6 @@
     border: 1px solid var(--main-bg-color);
 }
 
-:root {
-    --main-bg-color: #006CFA;
-    --secondary-bg-color: #02E165;
-}
 /* 
     COLUMNS
 */
