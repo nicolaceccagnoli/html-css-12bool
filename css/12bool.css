@@ -21,6 +21,11 @@
 */
 [class*="col-"] {
     flex: 0 0 auto;
+    color: white;
+    background-color: #006CFA;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
     /* 
     flex: GROW SHRINK BASIS;
     */
