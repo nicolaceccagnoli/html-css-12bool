@@ -60,6 +60,10 @@ section {
 .allignment .align-end div:last-child {
     align-self: flex-end;
 }
+.space-around{
+    justify-content: space-around;
+}
+
 
 
 /* 
