@@ -22,7 +22,7 @@
 [class*="col-"] {
     flex: 0 0 auto;
     color: white;
-    background-color: #006CFA;
+    background-color: var(--main-bg-color);
     border: 1px solid white;
     text-align: center;
     padding: 20px;
@@ -30,7 +30,15 @@
     flex: GROW SHRINK BASIS;
     */
 }
+.nested {
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--main-bg-color);
+}
 
+:root {
+    --main-bg-color: #006CFA;
+    --secondary-bg-color: #02E165;
+}
 /* 
     COLUMNS
 */
