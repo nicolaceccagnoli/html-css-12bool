@@ -22,6 +22,7 @@
 :root {
     --main-bg-color: #006CFA;
     --secondary-bg-color: #02E165;
+    --main-padding: 20px;
 }
 
 section {
@@ -34,7 +35,7 @@ section {
     background-color: var(--main-bg-color);
     border: 1px solid white;
     text-align: center;
-    padding: 20px;
+    padding: var(--main-padding);
     /* 
     flex: GROW SHRINK BASIS;
     */
@@ -43,6 +44,23 @@ section {
     background-color: var(--secondary-bg-color);
     border: 1px solid var(--main-bg-color);
 }
+
+.padding-triple {
+    padding: calc(var(--main-padding) * 3);
+}
+
+.allignment .align-start div:last-child {
+    align-self: flex-start;
+}
+
+.allignment .align-center div:last-child {
+    align-self: center;
+}
+
+.allignment .align-end div:last-child {
+    align-self: flex-end;
+}
+
 
 /* 
     COLUMNS
